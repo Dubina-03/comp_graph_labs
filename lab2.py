@@ -1,5 +1,4 @@
 import pandas as pd
-from graphics import *
 from PIL import Image, ImageDraw
 
 data=pd.read_csv("DS9.txt", sep=" ", names=["x", "y"])
