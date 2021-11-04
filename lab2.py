@@ -1,4 +1,3 @@
-from os import name, path
 import pandas as pd
 from graphics import *
 from PIL import Image, ImageDraw
