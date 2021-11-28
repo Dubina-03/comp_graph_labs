@@ -14,5 +14,5 @@ def multiply(r):
 
 image = Image.new("RGB", (960, 960), "white")
 draw = ImageDraw.Draw(image)
-data.apply(lambda r: draw.text(multiply(r),text=".", fill="black"), axis=1)
+data.apply(lambda r: draw.text(multiply(r),text=".", fill="blue"), axis=1)
 image.save("lab3.png")
